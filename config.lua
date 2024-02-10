@@ -5,17 +5,17 @@
 
 Config = {
     -- MENU OPTIONS
-    MenuLanguage = 'en', -- Change the language of the menu here!.
+    MenuLanguage = 'fr', -- Change the language of the menu here!.
     DebugDisplay = false, -- Set this to true to enable some extra prints.
     EnableCancelKeybind = true,  -- Set this to false if you have something else on X, and then just use /e c to cancel emotes.
     CancelEmoteKey = 'x', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
     MenuKeybindEnabled = true, -- You can disable the menu keybind here
     MenuKeybind = 'f4', -- The keybind you set here will be server-sided for new players. Existing players can set their own in the ESC menu keybind settings.
-    FavKeybindEnabled = true, -- You can disable the Favorite emote keybinding here.
+    FavKeybindEnabled = false, -- You can disable the Favorite emote keybinding here.
     FavKeybind = 'capital', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
-    SqlKeybinding = false, -- If you have the SQL imported enable this to turn on keybinding.
+    SqlKeybinding = true, -- If you have the SQL imported enable this to turn on keybinding.
     NotificationsAsChatMessage = false, -- If you don't like native GTA 5 notifications, you can disable them here to have messages in the chat.
-    Framework = 'false', -- Used for few framework-dependent things. Accepted values: 'qb-core', false.
+    Framework = 'qb-core', -- Used for few framework-dependent things. Accepted values: 'qb-core', false.
     Search = true, -- Used to enable or disable the search feature in the menu.
     CancelPreviousEmote = false,     -- If turned on, playing an emote will cancel the previous one.
 	
@@ -36,7 +36,7 @@ Config = {
 	
 	-- RAGDOLL OPTIONS
     RagdollEnabled = false,     -- You can enable or disable the Ragdoll keybinding here.
-    RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
+    RagdollKeybind = 'k', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
     RagdollAsToggle = true,  -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
 
 
@@ -47,7 +47,7 @@ Config = {
     PersistentWalk = true, -- Saves walkstyles style to client via KVP and applies them upon joining any server with RPEmotes installed. This is also reapplied upon exiting a vehicle.
     SharedEmotesEnabled = true, -- You can disable the Shared Emotes here.
     AdultEmotesDisabled = false, -- You can disable the Adult Emotes here. By default, this is set to false for obvious reasons.
-    AnimalEmotesEnabled = true, -- You can disable the Animal Emotes here.
+    AnimalEmotesEnabled = false, -- You can disable the Animal Emotes here.
 	
 	
 	-- HANDS UP OPTIONS 
@@ -67,7 +67,7 @@ Config = {
 
 
 	-- CROUCHING OPTIONS
-    CrouchEnabled = true, -- Enabled by default as this is an integral part of RPEmotes
+    CrouchEnabled = false, -- Enabled by default as this is an integral part of RPEmotes
     CrouchKeybindEnabled = true, -- If true, crouching will use keybinds.
     CrouchKeybind = 'lcontrol', -- The default crouch keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     CrouchOverride = false, -- If true, you won't enter stealth mode even if the crouch key and the "duck" key are the same.
@@ -75,18 +75,18 @@ Config = {
     CrawlEnabled = true,
 	
 	-- CRAWLING OPTIONS
-    CrawlEnabled = true, -- If crawling should be enabled.
+    CrawlEnabled = false, -- If crawling should be enabled.
     CrawlKeybindEnabled = true, -- If true, crawling will use keybinds.
     CrawlKeybind = 'rcontrol', -- The default crawl keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 
 
 
 	-- BINOCULAR OPTIONS
-    BinocularsEnabled = true, -- Enable / disable the /binoculars command in chat. This is enabled by default as it is an integral part of RPEmotes
+    BinocularsEnabled = false, -- Enable / disable the /binoculars command in chat. This is enabled by default as it is an integral part of RPEmotes
     AllowVisionsToggling = true, -- If set to true, you'll be able to toggle between different vision modes in the binoculars
     
     -- NEWS CAMERA OPTIONS
-    NewscamEnabled = true, -- If set to true, the /newscam command will be enabled. This is enabled by default as it is an integral part of RPEmotes
+    NewscamEnabled = false, -- If set to true, the /newscam command will be enabled. This is enabled by default as it is an integral part of RPEmotes
 	
 	-- OFFICAL UPDATES CHECKER
 	CheckForUpdates = true, -- This is set to false by default and will check for any future updates on the official RPEmotes repository by TayMcKenzieNZ, as intended.

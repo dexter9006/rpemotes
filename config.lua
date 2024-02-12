@@ -35,7 +35,7 @@ Config = {
 	
 	
 	-- RAGDOLL OPTIONS
-    RagdollEnabled = false,     -- You can enable or disable the Ragdoll keybinding here.
+    RagdollEnabled = true,     -- You can enable or disable the Ragdoll keybinding here.
     RagdollKeybind = 'k', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
     RagdollAsToggle = true,  -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
 
